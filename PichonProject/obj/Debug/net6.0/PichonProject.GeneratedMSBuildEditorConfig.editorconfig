@@ -7,4 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PichonProject
-build_property.ProjectDir = C:\Users\Usuario\Desktop\repositorio\Repo_Docker_GithubActions_CSharp_PageObjectModel\PichonProject\
+build_property.ProjectDir = C:\Users\Usuario\Desktop\repositorio\GithubActions+Slack\GithubActions_Slack_AllureReport\PichonProject\

@@ -1657,11 +1657,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\repositorio\\Repo_Docker_GithubActions_CSharp_PageObjectModel\\PichonProject\\PichonProject.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\repositorio\\GithubActions+Slack\\GithubActions_Slack_AllureReport\\PichonProject\\PichonProject.csproj",
       "projectName": "PichonProject",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\repositorio\\Repo_Docker_GithubActions_CSharp_PageObjectModel\\PichonProject\\PichonProject.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\repositorio\\GithubActions+Slack\\GithubActions_Slack_AllureReport\\PichonProject\\PichonProject.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\repositorio\\Repo_Docker_GithubActions_CSharp_PageObjectModel\\PichonProject\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\repositorio\\GithubActions+Slack\\GithubActions_Slack_AllureReport\\PichonProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",

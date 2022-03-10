@@ -85,7 +85,7 @@ namespace PichonProject.Paginas
 
         public void validateSuccessfulLogin()
         {
-            Thread.Sleep(2000);
+            Thread.Sleep(10000);
             var textConfirmLogin = _seleniumUtils.GetText(Dashborad);
             AllureLifecycle.Instance.WrapInStep(() =>
             {
