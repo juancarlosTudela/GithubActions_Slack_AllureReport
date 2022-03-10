@@ -26,7 +26,7 @@ namespace PichonProject.Paginas
 
         /*String*/
         string textError_Xpath = "//div[@class='alert alert-danger failed']";
-        string Dashborad = "//span[contains(text(),'Welcome Back')]";
+        string Dashborad = "//h2[contains(text(),'Hi,')]";
 
         string dataUser = "user@phptravels.com";
         string dataPassError = "demousert";
@@ -85,11 +85,12 @@ namespace PichonProject.Paginas
 
         public void validateSuccessfulLogin()
         {
-            Thread.Sleep(10000);
+            Thread.Sleep(1000);
             var textConfirmLogin = _seleniumUtils.GetText(Dashborad);
+
             AllureLifecycle.Instance.WrapInStep(() =>
             {
-                Assert.AreEqual("Welcome Back", textConfirmLogin);
+                Assert.AreEqual("Hi, Demo Welcome Back", textConfirmLogin);
             }, "successful login");
 
 
