@@ -1,0 +1,44 @@
+{
+  "uuid": "f3c4f8b3-c3d2-47c7-acd2-d2966d2f4948-tc-0-1002",
+  "name": "PichonProject.Test.PageTest.LoginTest.ValidateLogin",
+  "children": [
+    "1e5a4a6e-fa97-40f8-942e-de08497c41da-tr-0-1003"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1646925158170,
+      "stop": 1646925158170
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1646925158170,
+      "stop": 1646925158170
+    }
+  ],
+  "links": [],
+  "start": 1646925142887,
+  "stop": 1646925158223
+}

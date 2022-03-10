@@ -1,0 +1,126 @@
+{
+  "uuid": "1e5a4a6e-fa97-40f8-942e-de08497c41da-tr-0-1003",
+  "historyId": "PichonProject.Test.PageTest.LoginTest.ValidateLogin",
+  "fullName": "PichonProject.Test.PageTest.LoginTest.ValidateLogin",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-CIPI72G2"
+    },
+    {
+      "name": "package",
+      "value": "PichonProject.Test.PageTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "ValidateLogin"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTest"
+    },
+    {
+      "name": "tag",
+      "value": "SampleTag"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    },
+    {
+      "name": "tag",
+      "value": "Debug"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "feature",
+      "value": "Core"
+    }
+  ],
+  "links": [],
+  "name": "ValidateLogin",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "ValidateLogin"
+  },
+  "stage": "finished",
+  "description": "Test1\n",
+  "steps": [
+    {
+      "name": "ValidateLogin",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "successful login",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1646925157920,
+          "stop": 1646925157928
+        }
+      ],
+      "attachments": [
+        {
+          "name": "NavigateToUrl_10_03_2022_10_12_28.png",
+          "source": "bc4adb55a86c4021a7fc02b629e922fc-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "SetText_10_03_2022_10_12_29.png",
+          "source": "113fb6ae345d494ca576d87d56a4af6d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "SetText_10_03_2022_10_12_30.png",
+          "source": "676f6fed8a2249b49475fcd7862365f0-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Click_10_03_2022_10_12_32.png",
+          "source": "1e254cc169df4352b607576da878e856-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "ValidateLogin_screenshot__10_03_2022_10_12_38.png",
+          "source": "8a097c70662e46908f1a048504e9d57b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "9a1b8b8aa6b242b297d64e056978701b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1646925142890,
+      "stop": 1646925158175
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1646925142890,
+  "stop": 1646925158183
+}
