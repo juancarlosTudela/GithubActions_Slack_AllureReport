@@ -1,0 +1,8 @@
+[ {
+  "buildOrder" : 1,
+  "reportUrl" : "https://juancarlosTudela.github.io/GithubActions_Slack_AllureReport/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 72734
+  }
+} ]

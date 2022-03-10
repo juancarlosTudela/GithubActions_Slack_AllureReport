@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 60 seconds\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(),'Welcome Back')]\"}\n  (Session info: chrome=98.0.4758.102)",
+      "children" : [ {
+        "name" : "ValidateLogin",
+        "uid" : "37acbd16890688ab",
+        "parentUid" : "4c0c9910bd8378e8cb6b040c2667dd36",
+        "status" : "failed",
+        "time" : {
+          "start" : 1646922542952,
+          "stop" : 1646922615686,
+          "duration" : 72734
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4c0c9910bd8378e8cb6b040c2667dd36"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

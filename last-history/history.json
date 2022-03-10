@@ -1,0 +1,23 @@
+{
+  "PichonProject.Test.PageTest.LoginTest.ValidateLogin" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "37acbd16890688ab",
+      "reportUrl" : "https://juancarlosTudela.github.io/GithubActions_Slack_AllureReport/1//#testresult/37acbd16890688ab",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 60 seconds\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(),'Welcome Back')]\"}\n  (Session info: chrome=98.0.4758.102)",
+      "time" : {
+        "start" : 1646922542952,
+        "stop" : 1646922615686,
+        "duration" : 72734
+      }
+    } ]
+  }
+}
