@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Core",
+    "children" : [ {
+      "name" : "ValidateLogin",
+      "uid" : "f3f5d7a4436b6c0b",
+      "parentUid" : "a1a3e331507769635ba6464965ebb501",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646935881878,
+        "stop" : 1646935891833,
+        "duration" : 9955
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a1a3e331507769635ba6464965ebb501"
+  } ],
+  "name" : "behaviors"
+}
