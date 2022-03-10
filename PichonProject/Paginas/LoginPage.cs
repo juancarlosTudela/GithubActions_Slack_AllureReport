@@ -26,7 +26,7 @@ namespace PichonProject.Paginas
 
         /*String*/
         string textError_Xpath = "//div[@class='alert alert-danger failed']";
-        string Dashborad = "//h2[contains(text(),'Hi,')]";
+        //string Dashborad = "";
 
         string dataUser = "user@phptravels.com";
         string dataPassError = "demousert";
@@ -39,7 +39,7 @@ namespace PichonProject.Paginas
 
         /*Web Elements*/
         By btnLogin = By.XPath("//button[@class='btn btn-default btn-lg btn-block effect ladda-button waves-effect']");
-
+        By Dashborad = By.XPath("//h2[contains(text(),'Hi,')]");
 
         /*Methods*/
         public LoginPage insertDataLogin_Error()
@@ -85,7 +85,7 @@ namespace PichonProject.Paginas
 
         public void validateSuccessfulLogin()
         {
-            Thread.Sleep(1000);
+            Thread.Sleep(5000);
             var textConfirmLogin = _seleniumUtils.GetText(Dashborad);
 
             AllureLifecycle.Instance.WrapInStep(() =>
