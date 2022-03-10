@@ -20,7 +20,7 @@ namespace PichonProject.Common
         public SeleniumUtils(IWebDriver driver)
         {
             _driver = driver;
-            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(1200));
+            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(60));
         }
 
         public void NavigateToUrl(string url)
