@@ -35,7 +35,7 @@ namespace PichonProject.Test
             driverFactory = new DriverFactory();
             //driverFactory.getDriverBrowser(config_properties.browser);
             //driver = driverFactory.getDriver();
-            AllureLifecycle.Instance.CleanupResultDirectory();
+            //AllureLifecycle.Instance.CleanupResultDirectory();
             hubUrl = "http://localhost:4444/wd/hub";
             driver = driverFactory.CreateInstance(Enum.BrowserType.Chrome, hubUrl);
             driver.Manage().Window.Maximize();
