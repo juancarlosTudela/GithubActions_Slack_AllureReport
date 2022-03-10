@@ -1,0 +1,171 @@
+{
+  "uid" : "afa04cd06b3255d2",
+  "name" : "ValidateLogin",
+  "fullName" : "PichonProject.Test.PageTest.LoginTest.ValidateLogin",
+  "historyId" : "PichonProject.Test.PageTest.LoginTest.ValidateLogin",
+  "time" : {
+    "start" : 1646925142890,
+    "stop" : 1646925158183,
+    "duration" : 15293
+  },
+  "description" : "Test1\n",
+  "descriptionHtml" : "<p>Test1</p>\n",
+  "status" : "passed",
+  "statusMessage" : "ValidateLogin",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1646925158170,
+      "stop" : 1646925158170,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Test1\n",
+    "status" : "passed",
+    "statusMessage" : "ValidateLogin",
+    "steps" : [ {
+      "name" : "ValidateLogin",
+      "time" : {
+        "start" : 1646925142890,
+        "stop" : 1646925158175,
+        "duration" : 15285
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "successful login",
+        "time" : {
+          "start" : 1646925157920,
+          "stop" : 1646925157928,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "80de002f9afa04ad",
+        "name" : "NavigateToUrl_10_03_2022_10_12_28.png",
+        "source" : "80de002f9afa04ad.png",
+        "type" : "image/png",
+        "size" : 48852
+      }, {
+        "uid" : "e953d288cae76117",
+        "name" : "SetText_10_03_2022_10_12_29.png",
+        "source" : "e953d288cae76117.png",
+        "type" : "image/png",
+        "size" : 50776
+      }, {
+        "uid" : "da899e81358217fb",
+        "name" : "SetText_10_03_2022_10_12_30.png",
+        "source" : "da899e81358217fb.png",
+        "type" : "image/png",
+        "size" : 49780
+      }, {
+        "uid" : "f5e1f83ee926d2b9",
+        "name" : "Click_10_03_2022_10_12_32.png",
+        "source" : "f5e1f83ee926d2b9.png",
+        "type" : "image/png",
+        "size" : 86170
+      }, {
+        "uid" : "ff2a7ef801e7dba4",
+        "name" : "ValidateLogin_screenshot__10_03_2022_10_12_38.png",
+        "source" : "ff2a7ef801e7dba4.png",
+        "type" : "image/png",
+        "size" : 86284
+      }, {
+        "uid" : "2ce2bdf21554912a",
+        "name" : "Console Output",
+        "source" : "2ce2bdf21554912a.txt",
+        "type" : "text/plain",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1646925158170,
+      "stop" : 1646925158170,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-CIPI72G2"
+  }, {
+    "name" : "package",
+    "value" : "PichonProject.Test.PageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ValidateLogin"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginTest"
+  }, {
+    "name" : "tag",
+    "value" : "SampleTag"
+  }, {
+    "name" : "tag",
+    "value" : "NUnit"
+  }, {
+    "name" : "tag",
+    "value" : "Debug"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "Core"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "NUnit", "SampleTag", "Debug" ]
+  },
+  "source" : "afa04cd06b3255d2.json",
+  "parameterValues" : [ ]
+}
