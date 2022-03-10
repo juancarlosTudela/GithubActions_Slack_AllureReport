@@ -1,0 +1,83 @@
+{
+  "PichonProject.Test.PageTest.LoginTest.ValidateLogin" : {
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "4ed0e699ca2c2e9b",
+      "reportUrl" : "https://juancarlosTudela.github.io/GithubActions_Slack_AllureReport/7//#testresult/4ed0e699ca2c2e9b",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 120 seconds\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h2[contains(text(),'Hi,')]\"}\n  (Session info: chrome=98.0.4758.102)",
+      "time" : {
+        "start" : 1646933999153,
+        "stop" : 1646934129335,
+        "duration" : 130182
+      }
+    }, {
+      "uid" : "53b0cadc6fca082a",
+      "reportUrl" : "https://juancarlosTudela.github.io/GithubActions_Slack_AllureReport/6//#testresult/53b0cadc6fca082a",
+      "status" : "passed",
+      "statusDetails" : "ValidateLogin",
+      "time" : {
+        "start" : 1646932734480,
+        "stop" : 1646932743468,
+        "duration" : 8988
+      }
+    }, {
+      "uid" : "ca4137427960ba64",
+      "reportUrl" : "https://juancarlosTudela.github.io/GithubActions_Slack_AllureReport/5//#testresult/ca4137427960ba64",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.WebDriverException : unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+      "time" : {
+        "start" : 1646931923812,
+        "stop" : 1646931924872,
+        "duration" : 1060
+      }
+    }, {
+      "uid" : "2c4eef6303d4b505",
+      "reportUrl" : "https://juancarlosTudela.github.io/GithubActions_Slack_AllureReport/4//#testresult/2c4eef6303d4b505",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 60 seconds\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h2[contains(text(),'Hi,')]\"}\n  (Session info: chrome=98.0.4758.102)",
+      "time" : {
+        "start" : 1646924886504,
+        "stop" : 1646924960744,
+        "duration" : 74240
+      }
+    }, {
+      "uid" : "e6abbf56db7f4603",
+      "reportUrl" : "https://juancarlosTudela.github.io/GithubActions_Slack_AllureReport/3//#testresult/e6abbf56db7f4603",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 60 seconds\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h2[contains(text(),'Hi,')]\"}\n  (Session info: chrome=98.0.4758.102)",
+      "time" : {
+        "start" : 1646924303978,
+        "stop" : 1646924375172,
+        "duration" : 71194
+      }
+    }, {
+      "uid" : "42ab897e47d99551",
+      "reportUrl" : "https://juancarlosTudela.github.io/GithubActions_Slack_AllureReport/2//#testresult/42ab897e47d99551",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 60 seconds\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(),'Welcome Back')]\"}\n  (Session info: chrome=98.0.4758.102)",
+      "time" : {
+        "start" : 1646923534746,
+        "stop" : 1646923615032,
+        "duration" : 80286
+      }
+    }, {
+      "uid" : "37acbd16890688ab",
+      "reportUrl" : "https://juancarlosTudela.github.io/GithubActions_Slack_AllureReport/1//#testresult/37acbd16890688ab",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 60 seconds\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(),'Welcome Back')]\"}\n  (Session info: chrome=98.0.4758.102)",
+      "time" : {
+        "start" : 1646922542952,
+        "stop" : 1646922615686,
+        "duration" : 72734
+      }
+    } ]
+  }
+}
