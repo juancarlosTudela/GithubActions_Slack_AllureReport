@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Mar 10 17:05:23 GMT 2022","Thu Mar 10 17:05:24 GMT 2022","1060","","","","LoginTest","ValidateLogin","ValidateLogin","
+Setup SetUp method failed
+
+TearDown TearDown method failed
+Test1
+"
