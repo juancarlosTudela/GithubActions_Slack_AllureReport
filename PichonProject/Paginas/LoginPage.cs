@@ -85,12 +85,12 @@ namespace PichonProject.Paginas
 
         public void validateSuccessfulLogin()
         {
-            //var textConfirmLogin = _seleniumUtils.GetText(Dashborad);
+            var textConfirmLogin = _seleniumUtils.GetText(Dashborad);
 
             AllureLifecycle.Instance.WrapInStep(() =>
             {
-                //Assert.AreEqual("Hi, Demo Welcome Back", textConfirmLogin);
-                Assert.Pass();
+                Assert.AreEqual("Hi, Demo Welcome Back", textConfirmLogin);
+                //Assert.Pass();
             }, "successful login");
 
 

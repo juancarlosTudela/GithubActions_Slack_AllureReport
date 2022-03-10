@@ -2,6 +2,7 @@
 using OpenQA.Selenium.Support.UI;
 using PichonProject.Driver;
 using PichonProject.Interfaces;
+using SeleniumExtras.WaitHelpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +20,7 @@ namespace PichonProject.Common
         public SeleniumUtils(IWebDriver driver)
         {
             _driver = driver;
-            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(60));
+            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(120));
         }
 
         public void NavigateToUrl(string url)
@@ -37,8 +38,9 @@ namespace PichonProject.Common
 
         public String GetText(By element)
         {
-            IWebElement web_element = wait.Until(driver => driver.FindElement(element));
-            return web_element.Text;
+            var div = wait.Until(ExpectedConditions.ElementIsVisible(element));
+            //IWebElement web_element = wait.Until(driver => driver.FindElement(element));
+            return div.Text;
         }
 
         public void SetText(By element, String text)
