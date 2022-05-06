@@ -1,0 +1,60 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "LAPTOP-CIPI72G2",
+    "children" : [ {
+      "name" : "NonParallelWorker",
+      "children" : [ {
+        "name" : "ValidateLogin",
+        "uid" : "37035d3782b626a1",
+        "parentUid" : "3531a1597b2691a3e72f5e15f425595d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646925142890,
+          "stop" : 1646925158183,
+          "duration" : 15293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3531a1597b2691a3e72f5e15f425595d"
+    } ],
+    "uid" : "9cdd3db9ad2ea61dd224c2cc3ff7501f"
+  }, {
+    "name" : "fv-az36-778",
+    "children" : [ {
+      "name" : "NonParallelWorker",
+      "children" : [ {
+        "name" : "ErrorMessage",
+        "uid" : "8d8a2dd13cee897d",
+        "parentUid" : "a6bdb15e2784a31104cac545f0bc6d49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651857508219,
+          "stop" : 1651857517675,
+          "duration" : 9456
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ValidateLogin",
+        "uid" : "899ee4baad97ef7a",
+        "parentUid" : "a6bdb15e2784a31104cac545f0bc6d49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651857517699,
+          "stop" : 1651857525362,
+          "duration" : 7663
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6bdb15e2784a31104cac545f0bc6d49"
+    } ],
+    "uid" : "e0d3235cf8b9280c35593e122186199f"
+  } ],
+  "name" : "timeline"
+}
